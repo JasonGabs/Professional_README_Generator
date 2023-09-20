@@ -41,7 +41,7 @@ function generateMarkdown(data) {
 - [Features](#features)
 - [Contributions](#contributions)
 - [Tests](#tests)
-- [Contact](#contact)
+- [Questions](#questions)
 
 ${renderLicenseLink("")}
 ## decription
@@ -60,7 +60,7 @@ ${data.features}
 ${data.contributions}
 ## Tests
 ${data.tests}
-## Contact
+## Questions
 - ${data.email}
 - ${data.github}
 `;
